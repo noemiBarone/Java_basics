@@ -1,4 +1,4 @@
-public class Main {
+public class esercizio_1 {
     //Run this like before to execute all the exercises
     public static void main(String[] args) {
         exercise1();
