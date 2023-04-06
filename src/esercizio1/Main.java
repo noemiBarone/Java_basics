@@ -1,4 +1,6 @@
-public class esercizio_1 {
+package esercizio1;
+
+public class Main {
     //Run this like before to execute all the exercises
     public static void main(String[] args) {
         exercise1();
