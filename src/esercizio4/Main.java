@@ -1,7 +1,6 @@
 package esercizio4;
 
 public class Main {
-
     // Don't forget to use comments to clear things up if you need them!
     public static void main(String[] args) {
         exercise1();
@@ -24,7 +23,6 @@ public class Main {
         System.out.println(variable);
         variable = variable - 1;
         System.out.println(variable);
-
     }
 
     /**
@@ -57,8 +55,8 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        double celsius = 1.8;
-        double fahrenheit = celsius + 32;
+        double celsius = 24 ;
+        double fahrenheit = celsius * 1.8 + 32;
         System.out.println("Celsius: " + celsius);
         System.out.println("Fahreneheit: " + fahrenheit);
     }
@@ -104,4 +102,3 @@ public class Main {
         System.out.println(secondAge);
     }
 }
-
