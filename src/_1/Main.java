@@ -1,4 +1,4 @@
-package esercizio1;
+package _1;
 
 public class Main {
     //Run this like before to execute all the exercises

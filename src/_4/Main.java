@@ -1,4 +1,4 @@
-package esercizio4;
+package _4;
 
 public class Main {
     // Don't forget to use comments to clear things up if you need them!
