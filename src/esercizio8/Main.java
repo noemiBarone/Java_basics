@@ -39,7 +39,8 @@ public class Main {
         // Example...remaining Money >= lunchCost
         double remainingMoney1 = 15.0;
         double lunchCost = 5.0;
-        if (remainingMoney1 >= lunchCost){
+        boolean controlMoney = remainingMoney1 >= lunchCost;
+        if (controlMoney){
             System.out.println("Lunch time!");
         } else {
             System.out.println("You go hungry today");
@@ -47,7 +48,8 @@ public class Main {
 
         //Example... remaining Money < lunchCost
         double remainingMoney2 = 4.0;
-        if (remainingMoney2 >= lunchCost){
+        boolean controlMoney2 = remainingMoney2 >= lunchCost;
+        if (controlMoney2){
             System.out.println("Lunch time!");
         } else {
             System.out.println("You go hungry today");
@@ -69,7 +71,7 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
         double ourDouble = 2.5;
-        if(ourDouble >2.5){
+        if(ourDouble > 2.5){
             System.out.println("Greater than " + 2.5);
         } else {
             ourDouble++;

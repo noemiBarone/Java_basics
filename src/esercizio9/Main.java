@@ -30,7 +30,7 @@ public class Main {
         boolean isWarm = temperatureInCelsius >= isWarmTemperatureInCelsius;
         boolean wearingShorts = true;
 
-        if((isWarm == true && wearingShorts == true) || (isWarm == false && wearingShorts == false)){
+        if((isWarm && wearingShorts) || (!isWarm && !wearingShorts)){
             System.out.println("Comfortable clothes");
         } else {
             System.out.println("Uncomfortable clothes");
@@ -81,12 +81,11 @@ public class Main {
         boolean isTestRetry = true;
 
         double calculate = (100 * ourTestScore) / maxTestScore;
-        System.out.println(calculate);
-        if (calculate >= 90 && calculate <= 100 && isTestRetry != true) {
+        if (calculate >= 90 && calculate <= 100 && !isTestRetry ) {
             System.out.println("A");
-        } else if (calculate >= 80 && calculate < 90 && isTestRetry != true) {
+        } else if (calculate >= 80 && calculate < 90 && !isTestRetry ) {
             System.out.println("B");
-        } else if (calculate >= 80 && calculate <= 100 && isTestRetry == true){
+        } else if (calculate >= 80 && calculate <= 100 && isTestRetry){
             System.out.println("C");
         } else if (calculate >= 70 && calculate < 80) {
             System.out.println("C");
@@ -110,9 +109,9 @@ public class Main {
         boolean carIsDrivingFromLeftToRight = false;
         boolean carIsDrivingFromRightToLeft = false;
 
-        if(carIsDrivingFromLeftToRight == true ^ carIsDrivingFromRightToLeft == true){
+        if(carIsDrivingFromLeftToRight  ^ carIsDrivingFromRightToLeft ){
             System.out.println("Safe");
-        } else if(carIsDrivingFromLeftToRight == false && carIsDrivingFromRightToLeft == false){
+        } else if(!carIsDrivingFromLeftToRight  && !carIsDrivingFromRightToLeft ){
             System.out.println("No cars");
         } else {
             System.out.println("Crash");
