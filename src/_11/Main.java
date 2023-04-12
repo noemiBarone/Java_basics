@@ -31,23 +31,15 @@ public class Main {
         yourScore = text.length();
         if(yourScore > 20){
             yourScore = 20;
-        } else {
-            yourScore = yourScore;
         }
         if(text.contains("a")){
             yourScore -= 5;
-        } else {
-            yourScore = yourScore;
         }
         if(text == text.toLowerCase()){
                 yourScore +=  10;
-        } else {
-            yourScore = yourScore;
         }
         if(yourScore > 20){
             yourScore *= 2;
-        } else {
-            yourScore = yourScore;
         }
 
 
