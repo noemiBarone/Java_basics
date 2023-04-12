@@ -29,16 +29,19 @@ public class Main {
     public static double exercise1(String text, double expectedScore) {
         double yourScore = 0;
         yourScore = text.length();
-        if(yourScore > 20){
-            yourScore = 20;
+
+        int max = Math.max(0,20);// Suggerimento della piattaforma (non so se andava fatto così)
+
+        if(yourScore > max){
+            yourScore = max;
         }
         if(text.contains("a")){
             yourScore -= 5;
         }
-        if(text == text.toLowerCase()){
+        if(text.equals(text.toLowerCase())){
                 yourScore +=  10;
         }
-        if(yourScore > 20){
+        if(yourScore > max){
             yourScore *= 2;
         }
 
@@ -65,14 +68,16 @@ public class Main {
     public static double exercise2(String mealType, double weight, double expectedScore) {
         double yourMealScore = 0;
 
+
+        int min = Math.min(5,20); // Suggerimento della piattaforma (non so se andava fatto così)
         if(mealType.contains("sandwich")){
             yourMealScore = 5 * weight;
         } else if (mealType.contains("soup")){
             yourMealScore = 3 * weight;
         }
 
-        if (yourMealScore < 5){
-            yourMealScore = 5;
+        if (yourMealScore < min){
+            yourMealScore = min;
         }
 
 
