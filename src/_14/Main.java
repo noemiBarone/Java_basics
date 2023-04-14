@@ -88,8 +88,7 @@ public class Main {
      *
      *
      * Q4: We want to read a file 100 lines at a time, without loading the full file into our program
-     * A4: For each. It's better because t's better because it's a close loop, so we know how many times do we
-     *     have to go through that loop, so we can set the condition.
+     * A4: While. It's better because we don't know the entire number of lines of our file.
      *
      */
 }
