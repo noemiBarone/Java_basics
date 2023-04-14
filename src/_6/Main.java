@@ -53,27 +53,13 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        //double number = 10.22;
-
+        double number1 = 1.5;
+        int number2 = 67;
+        char character = 'b';
         boolean verify = true;
-        int number2 = 2;
-        char letter = 'b';
-        // Quando si utilizza il + tra numeri, caratteri e booleani, questo non vine visto come una
-        // concatenazione di stringhe ma come una somma, perciò il codice risulta scorretto.
-        // Esempio:
-        // String textFrom1Primitives = letter + number2;
-        // String textFrom2Primitives = verify + number2;
 
-        // Se dichiarassi e assegnassi i primitivi come stringhe, il + verrebbe letto corettamente come una
-        // concatenazione. Esempio:
-        String number3 = "5";
-        String verify2 = "true";
-        String textFrom2Primitives = number3 + verify2;
-
-        // In alternativa è possibile aggiungere una stringa nella concatenazione. Esempio:
-        String textFrom3Primitives = verify + " " +  number2;
-        System.out.println(textFrom2Primitives);
-        System.out.println(textFrom3Primitives);
+        String mex = String.valueOf(number1) + " " + String.valueOf(number2) + " " + String.valueOf(character) + " " + String.valueOf(verify);
+        System.out.println(mex);
     }
 
 
