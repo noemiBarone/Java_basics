@@ -79,11 +79,11 @@ public class Main {
      * A1: While. It's better because we don't know which choice the user will do.
      *
      * Q2: We have a list of 1000 users to send emails to
-     * A2: Fori. It's better because it's a close loop, so we know how many times do we have
+     * A2: For each. It's better because it's a close loop, so we know how many times do we have
      *     to go through that loop and we  have to scroll through the whole list without distinction.
      *
      * Q3: We want to print out the first 80 customer names from our bank database
-     * A3: For each. t's better because it's a close loop, so we know how many times do we have to go
+     * A3: Fori. t's better because it's a close loop, so we know how many times do we have to go
      *     through that loop, so we can set the condition.
      *
      *
