@@ -48,7 +48,7 @@ public class Main {
      *    2b: The age of a baby in months --> byte ( l'eta in mesi di un bimbo di solito si conta fino a circa 48 mesi)
      *    2c: Money in a hedgefund in euros --> double (potrebbero esserci anche centesimi, quindi è meglio usare un decimale)
      *    2d: Price of a good in euros on amazon.com --> float (i buoni sono spesso valori decimali ma non alti quanto un double)
-     *    2e: The exact weight of an apple measured by scientific equipment --> int
+     *    2e: The exact weight of an apple measured by scientific equipment --> int (si misura in interi)
      *    2f: The number of kilometers from any 2 places in the world --> long (essendo in km la distanza può essere molto alta)
      */
 
